@@ -1,4 +1,4 @@
-package com.example.restdemo.document;
+package com.josephmfaulkner.app.document;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.restdemo.document.data.Document;
-import com.example.restdemo.document.data.DocumentDao;
+import com.josephmfaulkner.app.document.data.Document;
+import com.josephmfaulkner.app.document.data.DocumentDao;
 
 @RestController
 @RequestMapping("/docs")

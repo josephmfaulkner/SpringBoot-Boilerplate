@@ -1,4 +1,4 @@
-package com.example.restdemo.document.data;
+package com.josephmfaulkner.app.document.data;
 
 import java.util.List;
 import java.util.Optional;

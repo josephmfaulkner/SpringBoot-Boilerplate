@@ -1,1 +1,1 @@
-web: java -jar target/restdemo-0.0.1-SNAPSHOT.jar
+web: java -jar target/spring-boilerplate-0.0.1-SNAPSHOT.jar
