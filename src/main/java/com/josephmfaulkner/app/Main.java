@@ -21,6 +21,8 @@ public class Main {
 		return args -> {
 			Document newDocument = null;
 			Long documentsCount = documentRepository.count();
+			
+			/*
 			if(documentsCount <= 1)
 			{
 				newDocument = new Document("doc1", "Powerpoint Presentation");
@@ -38,6 +40,7 @@ public class Main {
 				newDocument = new Document("doc5", "Database Schema Plan");
 				documentRepository.save(newDocument);
 			}
+			*/
 		};
 	}
 

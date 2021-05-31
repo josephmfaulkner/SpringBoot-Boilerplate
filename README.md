@@ -12,6 +12,11 @@ sudo service postgresql stop
 #also
 docker stop $(docker ps --quiet)
 ```
-Once the database is up and running, you can generate the schema and populate it with test data using the db migrations. 
+Once the database is up and running, you can generate the schema and populate it with test data using the db changesets. 
+### Running Liquibase Changesets
+```
+./mvnw liquibase:update
+```
+
 
 
