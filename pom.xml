@@ -76,6 +76,7 @@
 		        <configuration>      
 		        	<url>${env.JDBC_DATABASE_URL}</url>            
 		            <propertyFile>src/main/resources/database/liquibase.properties</propertyFile>
+		        	<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
 		        </configuration>    
 
            
